@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header-top{
+    display: grid;
+    grid-template-columns: 120px auto;
+    align-items: center;
+}
+.header-top .notice-title{
+    background: rgb(131, 153, 51);
+    padding: 20px 15px;
+    box-shadow: 11px 0px 8px rgba(0,0,0,0.6);
+    border-right: 5px solid wheat;
+}
+.header-top .notice-title span{
+    color: rgb(3, 66, 3);
+    font-size: 22px;
+}
+.header-top .notice-content a{
+    color: rgb(131, 153, 51);
+    text-decoration: none;
+}
+.header-top .notice-content a marquee:hover{
+    text-decoration: underline;
+    color: rgb(131, 153, 51);
+}
